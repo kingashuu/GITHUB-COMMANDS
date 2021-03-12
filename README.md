@@ -1,46 +1,28 @@
-# GITHUB-COMMANDS
-1. **Item 1**  
-Item 1 is really something
-2. **Item 2**  
-Item two is really something else
-
-If you want lines to break using soft returns use two spaces at the end of a line.
-
-
 
                                                             TOP GITHUB COMMANDS
 
-1) ```git config –global user.name “[name]”```  ->sets author name
-    git config –global user.email “[email address]” ->sets author email id
-1. **configaring user name and E-mail** 
-`` `csharp
-// sets author name
-git config –global user.name “[name]”
-`` `
-`` `csharp
-// sets author email id
- git config –global user.email “[email address]” 
-`` `
+1) ``git config –global user.name “[name]” `` ->sets author name
+    ``git config –global user.email “[email`` address]” ->sets author email id
 
-2) git init [repository name]   ->start new repository
+2) ``git init [repository name]``   ->start new repository
 
-3) git clone [url] ->obtain a repository from an existing URL.
+3) ``git clone [url]`` ->obtain a repository from an existing URL.
 
-4) git add [file]  ->adds a file to the staging area.
+4) ``git add [file]``  ->adds a file to the staging area.
 
-5) git commit -m “[ Type in the commit message]”  ->records or snapshots the file permanently in the version history.
-    git commit -a ->commits any files you’ve changed since then.&commits any files you’ve added
+5) ``git commit -m “[ Type in the commit message]”``  ->records or snapshots the file permanently in the version history.
+    ``git commit -a ->``commits any files you’ve changed since then.&commits any files you’ve added
 
-6) git diff      ->shows the file differences which are not yet staged.
-    git diff –staged           ->differences between the files in the staging area and the latest version present.
-    git diff [first branch] [second branch]  ->differences between the two branches mentioned.
+6) ``git diff``      ->shows the file differences which are not yet staged.
+    ``git diff`` –staged           ->differences between the files in the staging area and the latest version present.
+    ``git diff [first branch] [second branch]  ->differences between the two branches mentioned.
 
-7) git reset [file]                                                    ->unstages the file, but it preserves the file contents.
-    git reset [commit]                                             ->undoes all the commits after the specified commit and preserves the changes locally.
-    git reset –hard [commit]                                   ->discards all history and goes back to the specified commit.
+7) ``git reset [file] ``  ->unstages the file, but it preserves the file contents.
+    ``git reset [commit] ``  ->undoes all the commits after the specified commit and preserves the changes locally.
+   `` git reset –hard [commit]`` ->discards all history and goes back to the specified commit.
 
 
-8) git status                                                           ->command lists all the files that have to be committed.
+8) ``git status  `` ->command lists all the files that have to be committed.
 
 9 ) git rm [file]                                                        ->deletes the file from your working directory and stages the deletion.
 
@@ -74,16 +56,3 @@ git config –global user.name “[name]”
 20) git stash pop                                                                         ->restores the most recently stashed files.
       git stash list                                                                          ->lists all stashed changesets.
       git stash drop                                                                        ->discards the most recently stashed changeset. 
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Copied!
