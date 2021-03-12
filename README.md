@@ -10,7 +10,7 @@ If you want lines to break using soft returns use two spaces at the end of a lin
 
                                                             TOP GITHUB COMMANDS
 
-1) git config –global user.name “[name]”  ->sets author name
+1) ``git config –global user.name “[name]”``  ->sets author name
     git config –global user.email “[email address]” ->sets author email id
 1. **configaring user name and E-mail** 
 `` `csharp
