@@ -12,6 +12,15 @@ If you want lines to break using soft returns use two spaces at the end of a lin
 
 1) git config –global user.name “[name]”  ->sets author name
     git config –global user.email “[email address]” ->sets author email id
+1. **configaring user name and E-mail** 
+`` `csharp
+// sets author name
+git config –global user.name “[name]”
+`` `
+`` `csharp
+// sets author email id
+ git config –global user.email “[email address]” 
+`` `
 
 2) git init [repository name]   ->start new repository
 
